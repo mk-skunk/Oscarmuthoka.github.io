@@ -1,0 +1,13 @@
+document.getElementById('filter').addEventListener('input', function() {
+    let filterValue = this.value.toLowerCase();
+    let projects = document.querySelectorAll('.project');
+
+    projects.forEach(function(project) {
+        let projectName = project.querySelector('h2').textContent.toLowerCase();
+        if (projectName.includes(filterValue)) {
+            project.style.display = '';
+        } else {
+            project.style.display = 'none';
+        }
+    });
+});

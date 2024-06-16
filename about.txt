@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Oscar Muthoka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h1>About Me</h1>
+            <p>Welcome! I'm Oscar Muthoka, a passionate agriculturalist specializing in maize cultivation.</p>
+            <p>With a background in agricultural science, I have extensive experience in innovative farming techniques, disease management, and sustainable agriculture practices.</p>
+            <p>Feel free to reach out via <a href="mailto:oscar.muthoka@example.com">email</a> or connect with me on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
